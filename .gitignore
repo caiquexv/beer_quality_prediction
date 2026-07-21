@@ -1,0 +1,19 @@
+# Jupyter
+.ipynb_checkpoints/
+
+# Python
+__pycache__/
+*.pyc
+
+# Ambientes virtuais
+venv/
+.venv/
+env/
+
+# Arquivos de sistema
+.DS_Store
+Thumbs.db
+
+# Saídas geradas pelo script (reprodutíveis a partir do código)
+previsoes_R*.txt
+relatorio_final.txt

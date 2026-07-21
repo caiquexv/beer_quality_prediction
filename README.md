@@ -69,3 +69,4 @@ O relatório resume, para cada quantidade de variáveis testada, qual foi a melh
 - **R²**: mede a proporção da variação dos dados que o modelo consegue explicar, numa escala de 0 a 1. **Quanto mais perto de 1, melhor** o ajuste aos dados de treino.
 - **Scipy vs. Gradiente**: os coeficientes do modelo são calculados de duas formas — usando a biblioteca SciPy e usando um gradiente descendente implementado do zero. Quando os dois métodos chegam a resultados parecidos, é um bom sinal de que a implementação própria está correta.
 - **Atenção ao overfitting**: usar mais variáveis quase sempre reduz o MSE no treino, mas isso pode significar que o modelo só "decorou" os dados, em vez de aprender um padrão que generaliza bem. Por isso, vale comparar se o ganho de um R para o próximo é significativo ou apenas marginal, em vez de simplesmente escolher o modelo com mais variáveis.
+
